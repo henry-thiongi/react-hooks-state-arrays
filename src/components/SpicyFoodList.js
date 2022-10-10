@@ -44,7 +44,7 @@ function SpicyFoodList() {
 ));
 
   return (
-
+    
     <div>
       <select name="filter" onChange={handleFilterChange}>
     <option value="All">All</option>
@@ -58,4 +58,5 @@ function SpicyFoodList() {
     </div>
   );
 }
+
 export default SpicyFoodList;
